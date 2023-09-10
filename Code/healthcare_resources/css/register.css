@@ -1,0 +1,126 @@
+body{
+color: #4C4C4C;
+font-family: "Open Sans";
+font-size: 14px;
+}
+
+label{
+font-size: 14px;
+}
+
+input{
+width: 350px;
+background-color: #F7FBFC;
+border-color: white;
+border-style:solid;
+font-size: 14px;
+padding: 3px;
+border-radius: 0.25em;
+}
+
+input:focus{
+border-color: #769FCD;
+outline: none!important;
+}
+
+button{
+background-color: #769FCD;
+border: none;
+color: white;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+.center{
+margin: auto;
+width: 50%;
+padding: 10px;
+}
+
+#bannerpic{
+height: 150px;
+width: 100%;
+object-fit: cover;
+object-position: 50% 30%;
+}
+
+#container{
+width: 1200px;
+--background-color: #bcd4e6;
+background-color: #D6E6F2;
+height: 98vh;
+overflow-y: auto;
+overflow-x: hidden;
+margin: auto;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+#nav-parent{
+height: auto;
+width: 100%;
+object-fit: cover;
+object-position: 50% 30%;
+padding: 0px 10px 0px 10px;
+position: -webkit-sticky; /* Safari */
+position: sticky;
+top: 0px;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+z-index: 5;
+}
+
+#genderm, #genderf{
+width: 50px;
+padding-top: 10px;
+}
+
+.loginbtn{
+width: 200px;
+background-color: #769FCD;
+border: none;
+color: white;
+padding: 7px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 0.25em;
+}
+
+.btn-1 {
+background-image: linear-gradient(to right, #a1cdde 0%, #769FCD 51%, #a1cdde 100%);
+}
+
+.btn:hover {
+background-position: right center; /* change the direction of the change here */
+}
+
+.btn {
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
+
+
